@@ -58,3 +58,15 @@ Similarly we can try deleting other resources like S3 bucket, or EBS volume, IAM
 ![image](https://user-images.githubusercontent.com/62890188/127001053-dac6e11b-f833-4dd0-b6eb-cab88cb786c6.png)
 ![image](https://user-images.githubusercontent.com/62890188/127001067-099386a4-6ef3-4fea-b489-158028b1f0b8.png)
 
+# Cloudwatch can also record deletion of specific resources using API Call via Cloudtrail.
+Download the template and create the stack. 
+
+![image](https://user-images.githubusercontent.com/62890188/127270193-d8b53e41-8ef7-4885-857c-b90c67b6f896.png)
+
+Then test the event rule for deleting an EBS volume
+
+![image](https://user-images.githubusercontent.com/62890188/127270269-00c4aa27-b16c-4476-abcd-746ee4e84b40.png)
+
+
+
+
